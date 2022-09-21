@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+}
+
+button {
+  background: #86b32d;
+  border-bottom: 1px solid #5d7d1f;
+}
+
+button[type="submit"] {
+  background: #86b32d;
+  border-bottom: 1px solid #5d7d1f;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}

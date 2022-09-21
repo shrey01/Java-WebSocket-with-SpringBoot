@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="/bootstrap.min.css" rel="stylesheet">
+<link href="/style.css" rel="stylesheet">
+<script src="/jquery-1.10.2.min.js"></script>
+<script src="/app.js"></script>
+</head>
+<body onload="connect()">
+	<br>
+
+
+	<ul id="output"></ul>
+	<div id="main-content" class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<table id="chat">
+					<thead>
+						<tr>
+							<H2>
+								Sync XML Data
+								<H2>
+						</tr>
+					</thead>
+					<tbody id="SelectItem">
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<textarea id="xml" name="xml" rows="10" cols="80"
+							placeholder="EnterXML" required></textarea>
+						<br>
+					</div>
+					<button id="send" type="submit">Send</button>
+				</form>
+			</div>
+			<div class="row">
+
+				<div class="col-md-6">
+					<div>
+						<B>Response :</B>
+						<div id="response" style="color: red">
+							<div id="response2" style="color: green"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+</body>
+</html>
