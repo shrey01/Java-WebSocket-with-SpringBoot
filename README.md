@@ -16,7 +16,7 @@ Note::: Applicatioin will not allow you to sync same ids
 Note::: I've not used any database here so once you stop the connection data will be cleared from memory. This can be fixed using database service.
 
 Data to be used as sample:
-XML sample:
+XML sample: https://github.com/shrey01/Java-WebSocket-with-SpringBoot/tree/main/src/main/resources/mockData
 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE item>
