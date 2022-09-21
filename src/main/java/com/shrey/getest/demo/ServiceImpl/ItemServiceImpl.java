@@ -18,9 +18,10 @@ public class ItemServiceImpl implements ItemService {
 	@Override
 	public Map<String, Object> getItem(String id) {
 		Map<String, Object> json = new HashMap();
-		if (SocketTextHandler.hashMap.containsKey(id))
-			json.put(id, SocketTextHandler.hashMap.get(id));
-		else
+		if (SocketTextHandler.hashMap.containsKey(id)) {
+			json.put("itemCode", id);
+			json.put("description", SocketTextHandler.hashMap.get(id));
+		} else
 			json.put("message", "Item Id Not Found");
 		return json;
 	}
